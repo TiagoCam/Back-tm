@@ -5,10 +5,15 @@
 # Back-tm
 1. baixar esse repositório back
 
-2. dar um mvn clean install na raiz do projeto
-
+2. executar o seguinte codigo para limpar o MVN
+   
 ```java
 	mvn clean install
+```
+3. em seguida executar a instalação dos pacotes
+
+```java
+	mvn install
 ```
    esse código vai instalar as dependencias do maven e gerar o jar
    
